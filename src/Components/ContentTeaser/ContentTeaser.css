@@ -1,0 +1,143 @@
+.contentTeaser{
+    place-self: center;
+    overflow: hidden;
+    width: 100%;
+    word-break: break-word;
+}
+
+.small{
+    font-size: 1.2rem;
+}
+
+.medium{
+    font-size: 1.5rem;
+    margin: 1rem 0rem;
+}
+
+.large{
+    font-size: 1.5rem;
+    margin: 1rem 0rem;
+    font-weight: bolder;
+
+}
+
+.teaserHeader{
+    font-weight: bold;
+    text-transform: uppercase;
+    color:var(--text);
+}
+
+.teaserText{
+    color:var(--text-light);
+    padding-bottom: 2rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
+
+.contentTeaser.one-col{
+    grid-column: span 1 / span 1;
+    grid-row: span 1 / span 1;
+} 
+
+.contentTeaser.two-col {
+    grid-column: span 1 / span 1;
+    grid-row: span 1 / span 1;
+}
+.contentTeaser.three-col {
+    grid-column: span 1 / span 1;
+    grid-row: span 1 / span 1;
+
+}
+.contentTeaser.four-col{
+    grid-column: span 1 / span 1;
+    grid-row: span 1 / span 1;
+}
+
+@media only screen and (min-width: 430px) {
+    .contentTeaser.one-col{
+        grid-column: span 1 / span 1;
+
+    } 
+    
+    .contentTeaser.two-col {
+        grid-column: span 2 / span 2;
+    }
+    .contentTeaser.three-col {
+        grid-column: span 2 / span 2;
+    
+    }
+    .contentTeaser.four-col{
+        grid-column: span 2 / span 2;
+    }
+
+    .small{
+        font-size: 1.5rem;
+    }
+    
+    .medium{
+        font-size: 2rem;
+        margin: 1rem 0rem;
+    }
+    
+    .large{
+        font-size: 2.5rem;
+        margin: 1rem 0rem;
+    
+    }
+}
+
+@media only screen and (min-width: 769px)  {
+
+    .contentTeaser.one-col{
+        grid-column: span 1 / span 1;
+    } 
+    
+    .contentTeaser.two-col {
+        grid-column: span 2 / span 2;
+    }
+    .contentTeaser.three-col {
+        grid-column: span 3 / span 3;
+    }
+    .contentTeaser.four-col{
+        grid-column: span 3 / span 3;
+    }
+
+   
+    
+}
+
+@media only screen and (min-width: 1025px)  {
+    .contentTeaser.one-col{
+        grid-column: span 1 / span 1;
+    } 
+    .contentTeaser.two-col {
+        grid-column: span 2 / span 2;
+    }
+    .contentTeaser.three-col {
+        grid-column: span 3 / span 3;
+    }
+    .contentTeaser.four-col{
+        grid-column: span 4 / span 4;
+    }  
+    .teaserText{
+        display: -webkit-box;
+        -webkit-line-clamp: 5;
+        overflow: hidden;
+    } 
+
+    .small{
+        font-size: 1.5rem;
+    }
+    
+    .medium{
+        font-size: 2.5rem;
+        margin: 1rem 0rem;
+    }
+    
+    .large{
+        font-size: 4.5rem;
+        margin: 1rem 0rem;
+    
+    }
+}

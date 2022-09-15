@@ -1,0 +1,112 @@
+
+
+.CTA{
+    display: grid;
+    place-content: center;
+    place-items: center;
+}
+
+.CTA-icon{
+    display: grid;
+    grid-auto-flow: row;
+    text-align: center;
+    height: 100%;
+}
+
+.CTA-icon img{
+    max-height: 7rem
+}
+
+.CTA-icon span{
+    padding-top: 1.5rem;
+    color: var(--primary);
+}
+
+.CTA-header{
+    color: var(--text);
+    padding: 0rem 2rem 0rem 2rem;
+    overflow: hidden;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.CTA-text{
+    padding-bottom: 1rem;
+    color: var(--text-light);
+}
+
+.CTA button{
+    margin-top: 1rem;
+}
+
+.CTA.one-col{
+    grid-column: span 1 / span 1;
+    grid-row: span 1 / span 1;
+} 
+
+.CTA.two-col {
+    grid-column: span 1 / span 1;
+    grid-row: span 1 / span 1;
+}
+.CTA.three-col {
+    grid-column: span 1 / span 1;
+    grid-row: span 1 / span 1;
+
+}
+.CTA.four-col{
+    grid-column: span 1 / span 1;
+    grid-row: span 1 / span 1;
+}
+
+@media only screen and (min-width: 430px) {
+    .CTA.one-col{
+        grid-column: span 1 / span 1;
+
+    } 
+    
+    .CTA.two-col {
+        grid-column: span 2 / span 2;
+    }
+    .CTA.three-col {
+        grid-column: span 2 / span 2;
+    
+    }
+    .CTA.four-col{
+        grid-column: span 2 / span 2;
+    }
+
+}
+
+@media only screen and (min-width: 769px)  {
+
+    .CTA.one-col{
+        grid-column: span 1 / span 1;
+    } 
+    
+    .CTA.two-col {
+        grid-column: span 3 / span 3;
+    }
+    .CTA.three-col {
+        grid-column: span 3 / span 3;
+    }
+    .CTA.four-col{
+        grid-column: span 3 / span 3;
+    }
+    
+}
+
+@media only screen and (min-width: 1025px)  {
+    .CTA.one-col{
+        grid-column: span 1 / span 1;
+    } 
+    .CTA.two-col {
+        grid-column: span 2 / span 2;
+    }
+    .CTA.three-col {
+        grid-column: span 3 / span 3;
+    }
+    .CTA.four-col{
+        grid-column: span 4 / span 4;
+    }   
+}
+

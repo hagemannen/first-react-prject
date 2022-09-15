@@ -1,0 +1,29 @@
+.hero{
+    padding-top: 4.5rem;
+    position: relative;
+}
+
+.heroContainer{
+    height: 90vh;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    place-content: center;
+    gap: 1rem;
+    
+}
+.imgContainer{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+@media only screen and (min-width: 769px)  {
+    .heroContainer{
+        gap: 2.5rem;
+    }
+}
+
+.heroImg{
+    max-width: 100%;
+}

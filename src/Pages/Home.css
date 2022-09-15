@@ -1,0 +1,99 @@
+.home{
+    position: relative;
+    z-index: 1;
+    scroll-behavior: smooth;
+}
+
+.homeContainer{
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    grid-auto-rows: 25rem;
+    column-gap: 2rem;
+    row-gap: 3rem;
+}
+
+.scroll{
+    position: absolute;
+    left: 50%;
+    top:90vh;
+    z-index: 2;
+}
+
+.card{
+    width: 100%;
+    height: 98%;
+    align-self: self-end;
+}
+
+.quotes{
+    grid-column: span 1 / span 1;
+    grid-row: span 1 / span 1;
+    align-self: center;
+}
+
+
+@media only screen and (min-width: 430px) {
+    .homeContainer{
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        grid-auto-rows: 23rem;
+        column-gap: 2rem;
+        row-gap: 3rem;
+    }
+
+    .quotes {
+        grid-column: span 2 / span 2;
+    }
+
+}
+
+@media only screen and (min-width: 769px)  {
+    .homeContainer{
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        grid-auto-rows: 20rem;
+        column-gap: 2.5rem;
+        row-gap: 4rem;
+    }
+
+    .quotes{
+        grid-column: span 3 / span 3;
+    }
+    
+}
+
+@media only screen and (min-width: 1025px)  {
+    .homeContainer{
+        border-bottom: 3px;
+        border-color: hotpink;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        grid-auto-rows: 24rem;
+        column-gap: 3rem;
+        row-gap: 11rem;
+    }
+    .quotes{
+        grid-column: span 4 / span 4;
+    }
+
+}
+@media only screen and (min-width: 2200px)  {
+    .homeContainer{
+        border-bottom: 3px;
+        border-color: hotpink;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        grid-auto-rows: 25rem;
+        column-gap: 3rem;
+        row-gap: 8rem;
+    }
+    .quotes{
+        grid-column: span 4 / span 4;
+    }
+
+}
+
+
+
+
+
+
+
+
+

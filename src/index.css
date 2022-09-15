@@ -1,13 +1,21 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@font-face {
+    font-family: "NunitoSans";
+    src: local("NunitoSans"),
+    url("./Fonts/NunitoSans-Bold.ttf") format("truetype");
+    font-weight: bold;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+    font-family: "NunitoSans";
+    src: local("NunitoSans"),
+    url("./Fonts/NunitoSans-Regular.ttf") format("truetype");
+    font-weight: normal;
+
+    font-family: "NunitoSans";
+    src: local("NunitoSans"),
+    url("./Fonts/NunitoSans-Black.ttf") format("truetype");
+    font-weight: black;
+
+    font-family: "NunitoSans";
+    src: local("NunitoSans"),
+    url("./Fonts/NunitoSans-ExtraBold.ttf") format("truetype");
+    font-weight: bolder;
 }

@@ -1,0 +1,43 @@
+.quote{
+    display: grid;
+    grid-auto-flow: row;
+    place-items: center;
+    height: -moz-fit-content;
+    height: fit-content;
+    padding: 0 2rem;
+}
+
+.text{
+    text-align: center;
+    padding-top: 1.5rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    overflow: hidden;
+    color: var(--text);
+}
+
+.source{
+    display: flex;
+}
+
+.source p{
+    padding: 0;
+    color: var(--text);
+    
+}
+
+.source img{
+    padding-right: 0.5rem;
+}
+
+
+@media only screen and (min-width: 769px)  {
+.quote{
+
+    padding: 0 10rem;
+}
+}
+
+
+
+

@@ -1,0 +1,66 @@
+.card{
+    height: 100%;
+    width: 100%;
+    grid-column: span 1 / span 1;
+    grid-row: span 1 / span 1;
+}
+
+
+.card-link{
+display: grid;
+height: 100%;
+grid-template-rows: repeat(2, minmax(0, 1fr));
+border-radius: 1.2rem;
+overflow: hidden;
+text-decoration: none;
+background-color: transparent;
+color: var(--text);
+border-radius: 25px;
+position: relative;
+background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='25' ry='25' stroke='%2370707033' stroke-width='3' stroke-dasharray='4 12' stroke-dashoffset='0' stroke-linecap='square'/%3e%3c/svg%3e");
+}
+
+
+.card-img-wrapper{
+    justify-self: center;
+    overflow: hidden;
+}
+
+.card-img{
+    object-fit: cover;
+}
+
+.card-content{
+padding: 1rem;
+
+}
+
+.card-header-section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-header{
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.card-text{
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
+
+
+.card-link:hover{
+    transform: translateY(-0.1rem);
+    transition-duration: 0.2s;
+    background-color: var(--white);
+}
+
+.card-link:hover .CTA{
+    transform: scaleX(1.3);
+    transition: all;
+    transition-duration: 0.1s;
+}
+

@@ -17,7 +17,7 @@ nav{
 	display: flex;
 	justify-content: space-between;
   z-index: 20;
-	height: 3.5rem;
+	height: 2rem;
 	padding: 1rem 3rem 1rem 3rem;
 }
 
@@ -30,7 +30,7 @@ nav{
 }
 
 .navbar-logo img{
-	width: 8rem;
+	width: 7rem;
 }
 
 .nav-menu {
@@ -47,6 +47,7 @@ nav{
 	flex-shrink: 0;
 	position: static;
 	display: block;
+  
 }
 
 
@@ -55,8 +56,7 @@ nav{
   text-decoration: none;
   height: 100%;
 	position: relative;
-	transition: color 0.3s ease-in-out;
-  font-size: 18px;
+  font-size: 1rem;
 }
 
 
@@ -77,9 +77,9 @@ nav{
 	position: absolute;
 	height: 2px;
 	width: 28px;
-	bottom: 50%;
+	bottom: 56%;
 	transform: scale(0);
-	transition: all 0.2s ease;
+	transition: all 0.4s ease;
 	left: 50%;
 	margin-bottom: -30px;
 	margin-left: -14px;
@@ -91,7 +91,7 @@ nav{
 
 @media screen and (min-width: 765px ) and (max-width: 1023px) {
 	.navbar{
-		height: 2.5rem;
+		height: 1.5rem;
 	}
 
   .nav-menu {
@@ -112,7 +112,7 @@ nav{
     background-color: #E7E5E1;
     width: 60vw;
     opacity: 1;
-    transition: all 0.3s ease;
+    transition: all 0.6s ease;
     z-index: 1;
     height: 100vh;
 		position: absolute;
@@ -132,18 +132,19 @@ nav{
   text-decoration: none;
   height: 100%;
 	position: relative;
-	transition: color 0.3s ease-in-out;
+	transition: color 0.6s ease-in-out;
 	}
 
   .menu-icon {
     display: block;
     position: absolute;
-    top: 1.2rem;
+    top: 1rem;
     right: 1.5rem;
     color: var(--primary);
-    font-size: 2rem;
+    font-size: 1.5rem;
     cursor: pointer;
     z-index: 10;
+
 }
 	
 }
@@ -151,7 +152,7 @@ nav{
 @media screen and (max-width: 767px) {
 
   .navbar{
-		height: 20px;
+		height: 0.8rem;
 		padding: 1rem;
 	}
 
@@ -169,7 +170,7 @@ nav{
 		top: 0;
 		right:-100%;
 		padding-top: 6rem;
-    transition: all 0.3s ease;
+    transition: all 0.6s ease;
   }
 
   .nav-menu.active {
@@ -177,7 +178,7 @@ nav{
     background-color: #E7E5E1;
     width: 100vw;
     opacity: 1;
-    transition: all 0.3s ease;
+    transition: all 0.6s ease;
     z-index: 1;
     height: 100vh;
 		position: absolute;
@@ -210,4 +211,19 @@ nav{
     cursor: pointer;
     z-index: 10;
   }
+}
+
+@media only screen and (min-width: 2010px)  {
+  .navbar{
+		height: 3.5rem;
+		padding: 1rem 4rem;
+    
+	}
+
+  .navbar-logo img {
+    width: 8rem;
+}
+.nav-links {
+  font-size: 1.5rem;
+}
 }

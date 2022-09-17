@@ -14,7 +14,6 @@
   /*fonts*/
   --text-base: 18px;
   --font-family: NunitoSans, sans-serif;
-
 }
 
 body{
@@ -40,6 +39,10 @@ body{
   }
   .heroContainer{
     margin: 0rem 2rem;
+  }
+  .nav-menu.active body{
+    background-color: black;
+    opacity: 0.3;
   }
 }
 

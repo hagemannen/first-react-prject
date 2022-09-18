@@ -1,5 +1,5 @@
 .bars{
-    padding: 0rem 1rem;
+
     align-self: center;
 
 }
@@ -21,6 +21,9 @@
 }
 
 @media only screen and (min-width: 430px) {
+    .bars{
+        padding: 0rem 1rem;
+    }
     .bars.one-col{
         grid-column: span 1 / span 1;
 
@@ -41,21 +44,25 @@
     } 
     
     .bars.two-col {
-        grid-column: span 2 / span 2;
+        grid-column: span 3 / span 3;
     }
     .bars.three-col {
         grid-column: span 3 / span 3;
     }
 
+    .bars{
+        padding: 0rem 2rem;
+    }
+
 
 }
 
-@media only screen and (min-width: 1025px)  {
+@media only screen and (min-width: 1024px)  {
     .bars.one-col{
         grid-column: span 1 / span 1;
     } 
     .bars.two-col {
-        grid-column: span 2 / span 2;
+        grid-column: span 3 / span 3;
     }
     .bars.three-col {
         grid-column: span 3 / span 3;

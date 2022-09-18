@@ -1,8 +1,9 @@
 .contentTeaser{
     place-self: center;
     overflow: hidden;
-    width: 100%;
+    max-width: 100%;
     word-break: break-word;
+    
 }
 
 .small{
@@ -85,6 +86,10 @@
         margin: 1rem 0rem;
     
     }
+    
+    .contentTeaser{
+        padding: 0rem 2rem;
+    }
 }
 
 @media only screen and (min-width: 769px)  {
@@ -94,7 +99,7 @@
     } 
     
     .contentTeaser.two-col {
-        grid-column: span 2 / span 2;
+        grid-column: span 3 / span 3;
     }
     .contentTeaser.three-col {
         grid-column: span 3 / span 3;
@@ -107,12 +112,12 @@
     
 }
 
-@media only screen and (min-width: 1025px)  {
+@media only screen and (min-width: 1024px)  {
     .contentTeaser.one-col{
         grid-column: span 1 / span 1;
     } 
     .contentTeaser.two-col {
-        grid-column: span 2 / span 2;
+        grid-column: span 3 / span 3;
     }
     .contentTeaser.three-col {
         grid-column: span 3 / span 3;
@@ -140,4 +145,6 @@
         margin: 1rem 0rem;
     
     }
+
+
 }

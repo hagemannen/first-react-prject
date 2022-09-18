@@ -61,7 +61,8 @@ nav{
 
 
 .nav-links:hover {
-	text-shadow: 0 0.015em #101010,0 -0.015em #101010,0.01em 0 #101010,-0.01em 0 #101010;
+	text-shadow: 0 0 0.020rem var(--text);
+
 }
 
 .nav-links:hover::after {

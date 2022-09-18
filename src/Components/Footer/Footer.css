@@ -101,7 +101,7 @@ footer{
         padding-top: 5rem;
         padding-bottom: 5rem;
         display: grid;
-        column-gap: 5rem;
+        column-gap: 1.5rem;
         row-gap: 3rem;
         grid-template-areas: "a b"
                             "c d";
@@ -127,7 +127,7 @@ footer{
         grid-template-columns: repeat(4, minmax(0, 1fr));
         grid-template-areas: "a b c d";
         place-content: unset;
-        gap: 5rem;
+        gap: 2rem;
     }
     .contactInfo{
         height: fit-content;
@@ -139,7 +139,16 @@ footer{
         padding: 0.5rem 4.5rem 0.5rem 4.5rem;
     }
 
+
+
     
+}
+
+@media only screen and (min-width: 1024px)  {
+    .content.container{
+        gap: 6rem;
+    }
+
 }
 
 

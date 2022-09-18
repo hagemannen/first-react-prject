@@ -61,7 +61,7 @@ nav{
 
 
 .nav-links:hover {
-	font-weight: bold;
+	text-shadow: 0 0.015em #101010,0 -0.015em #101010,0.01em 0 #101010,-0.01em 0 #101010;
 }
 
 .nav-links:hover::after {
@@ -119,6 +119,7 @@ nav{
     right: 0%;
     top: 0;
   }
+
 
   .nav-links {
     text-align: center;

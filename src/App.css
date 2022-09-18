@@ -40,10 +40,6 @@ body{
   .heroContainer{
     margin: 0rem 2rem;
   }
-  .nav-menu.active body{
-    background-color: black;
-    opacity: 0.3;
-  }
 }
 
 @media only screen and (min-width: 769px)  {

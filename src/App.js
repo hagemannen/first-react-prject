@@ -6,6 +6,7 @@ import Home from "./Pages/Home";
 import Footer from "./Components/Footer/Footer";
 import HoverInfo from "./Components/HoverInfo/HoverInfo";
 
+
 function App() {
   return(
     <>

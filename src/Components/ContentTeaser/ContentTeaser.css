@@ -112,12 +112,12 @@
     
 }
 
-@media only screen and (min-width: 1024px)  {
+@media only screen and (min-width: 1025px)  {
     .contentTeaser.one-col{
         grid-column: span 1 / span 1;
     } 
     .contentTeaser.two-col {
-        grid-column: span 3 / span 3;
+        grid-column: span 2 / span 2;
     }
     .contentTeaser.three-col {
         grid-column: span 3 / span 3;
